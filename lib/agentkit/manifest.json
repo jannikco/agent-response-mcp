@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-agent-response",
+      "description": "Connect AI agents to Agent Response using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-agent-response/SKILL.md": "a87dd605334bcb19d7871dd854d6f16e3e82a9259d9751d0dec1fbf567eaee25"
+  }
+}
