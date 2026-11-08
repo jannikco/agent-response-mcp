@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "36d62953fcce8fcc116d1d7ee809b29f6437fe7ca57de8f10933d23d1ce50730",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.agentresponse.co.uk/"
+  ],
+  "id": "agent-response-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Agent Response MCP setup and connection checker",
+  "description": "Generate Agent Response MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "agent-response",
+  "appName": "Agent Response",
+  "providerDocs": "https://api.agentresponse.co.uk/",
+  "providerWebsite": "https://www.agentresponse.co.uk/",
+  "authentication": {
+    "type": "api_key_query",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://api.agentresponse.co.uk/getting-started/",
+    "tenantRequired": false,
+    "accountParameterNames": [
+      "office_id"
+    ]
+  },
+  "attributionSlug": "github-agent-response-mcp"
+}
